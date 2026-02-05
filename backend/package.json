@@ -1,0 +1,9 @@
+{
+  "name": "barqaror-global-backend",
+  "version": "1.0.0",
+  "description": "Minimal AI news aggregation service",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}
