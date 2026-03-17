@@ -1,0 +1,18 @@
+{
+  "lotin_kirill_mapping": {
+    "metric": "exact_mapping_accuracy",
+    "minimum_threshold": 0.95
+  },
+  "apostrof_imlo_variants": {
+    "metric": "variant_normalized_accuracy",
+    "minimum_threshold": 0.9
+  },
+  "rasmiy_norasmiy_uslub": {
+    "metric": "style_and_content_score",
+    "minimum_threshold": 0.85
+  },
+  "sheva_robustness": {
+    "metric": "dialect_normalization_accuracy",
+    "minimum_threshold": 0.8
+  }
+}
