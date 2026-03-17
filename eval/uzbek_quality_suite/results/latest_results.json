@@ -1,0 +1,30 @@
+{
+  "lotin_kirill_mapping": {
+    "metric": "exact_mapping_accuracy",
+    "score": 1.0,
+    "minimum_threshold": 0.95,
+    "passed": true,
+    "examples": 5
+  },
+  "apostrof_imlo_variants": {
+    "metric": "variant_normalized_accuracy",
+    "score": 1.0,
+    "minimum_threshold": 0.9,
+    "passed": true,
+    "examples": 5
+  },
+  "rasmiy_norasmiy_uslub": {
+    "metric": "style_and_content_score",
+    "score": 0.825,
+    "minimum_threshold": 0.85,
+    "passed": false,
+    "examples": 4
+  },
+  "sheva_robustness": {
+    "metric": "dialect_normalization_accuracy",
+    "score": 1.0,
+    "minimum_threshold": 0.8,
+    "passed": true,
+    "examples": 5
+  }
+}
